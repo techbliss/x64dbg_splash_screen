@@ -3,9 +3,10 @@ from PyQt4.QtGui import QApplication, QFont, QPixmap, QSplashScreen
 import os
 import sys
 import time
+
 dn = os.getcwd()
 sys.path.insert(0, dn)
-print dn
+
 version = "Branch"+" 1564632"
 build_date = "Build Date"+" 12.12.2112"
 
